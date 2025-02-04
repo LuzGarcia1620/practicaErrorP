@@ -138,12 +138,11 @@ HANDLER404 = 'app.views.show_error_404'
 HANDLER500 = 'app.views.show_error_500'
 
 
-GOOGLE_SEARCH_API = 'AIzaSyDO7EP5YxBvj3sF6EFDTFn0y-XznoqSnJA'
 
-ID_SEARCH_ENGINE = '1223a91371a174426'
+
 
 AUTH_USER_MODEL= 'users.CustomUser'
 
 LOGIN_URL = '/users/login/'
-LOGIN_REDIRECT_URL = '/home' # Dónde irán los usuarios tras iniciar sesión
+LOGIN_REDIRECT_URL = '/home' 
 LOGOUT_REDIRECT_URL = '/users/login/'
